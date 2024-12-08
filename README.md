@@ -68,5 +68,3 @@ Si vous avez des questions, souhaitez discuter d'une collaboration ou simplement
 Merci d'avoir pris le temps de visiter mon portfolio ! 😄
 
 ```
-
-

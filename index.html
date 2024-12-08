@@ -1,0 +1,155 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio - Développeur d'Applications</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        section {
+            padding: 40px 20px;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        .about, .projects, .skills, .contact {
+            background-color: white;
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        .project-card {
+            background-color: #fafafa;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .project-card h3 {
+            margin-top: 0;
+        }
+
+        .skills ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .skills ul li {
+            background-color: #fafafa;
+            padding: 10px;
+            margin: 5px 0;
+            border-radius: 5px;
+        }
+
+        .contact {
+            text-align: center;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #333;
+            color: white;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mon Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#projects">Projets</a></li>
+                <li><a href="#skills">Compétences</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about" class="about">
+        <h2>À propos de moi</h2>
+        <p>Je suis un développeur d'applications passionné par la création de solutions innovantes. Je travaille avec des technologies modernes pour concevoir des applications performantes et conviviales. Mon objectif est de toujours améliorer mes compétences et de livrer des produits de haute qualité.</p>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2>Projets</h2>
+        <div class="project-card">
+            <h3>Application de Gestion des Tâches</h3>
+            <p>Une application permettant de gérer facilement vos tâches quotidiennes avec une interface utilisateur moderne et intuitive.</p>
+            <a href="https://monprojet1.com" target="_blank">Voir le projet</a>
+        </div>
+        <div class="project-card">
+            <h3>Site Web E-commerce</h3>
+            <p>Un site de vente en ligne avec panier dynamique, système de paiement sécurisé et gestion de l'inventaire.</p>
+            <a href="https://monprojet2.com" target="_blank">Voir le projet</a>
+        </div>
+        <div class="project-card">
+            <h3>Blog Personnel</h3>
+            <p>Un blog simple avec une interface épurée permettant de partager des articles et des pensées sur divers sujets.</p>
+            <a href="https://monprojet3.com" target="_blank">Voir le projet</a>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <h2>Compétences</h2>
+        <ul>
+            <li>HTML, CSS, JavaScript</li>
+            <li>Vue.js, React</li>
+            <li>Node.js, Express</li>
+            <li>MongoDB, SQL</li>
+            <li>Git, GitHub</li>
+            <li>Docker</li>
+        </ul>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact</h2>
+        <p>Si vous souhaitez discuter d'une opportunité ou d'un projet, contactez-moi à <a href="mailto:monemail@example.com">monemail@example.com</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Mon Portfolio. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
